@@ -1,0 +1,101 @@
+.nav {
+   margin: 0;
+   padding: 0;
+}
+
+.nav__row {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.nav__logo {
+   margin-left: 117px;
+   margin-right: 73px;
+}
+
+.nav__logo-icon {
+   display: flex;
+   width: 26px;
+   height: 26px;
+   border-radius: 50%;
+   background: #5e81fe;
+}
+
+.nav__list-holder {
+   top: 0;
+   left: 0;
+   bottom: 0;
+}
+
+.nav__list {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+}
+
+.nav__item {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   padding: 0;
+   margin-right: 42px;
+   display: flex;
+}
+
+.nav__item:last-child {
+   margin-right: 0;
+}
+
+.nav__link {
+   font-family: "Quicksand", sans-serif;
+   text-decoration: none;
+
+   font-style: normal;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 0.8;
+   color: #5e81fe;
+   text-shadow: 0px 0px 5px #e6e6e6;
+}
+
+.nav__link:hover {
+   color: yellowgreen;
+   text-shadow: 0px 0px 5px #e6e6e6;
+}
+
+.nav__btn {
+   margin-right: 117px;
+   margin-left: 44px;
+   padding-top: 7px;
+   width: 113px;
+   height: 30px;
+   align-items: center;
+   text-align: center;
+   background-color: #d2e1ff;
+   border-radius: 4px;
+
+   transition: background-color 0.2s ease-in;
+}
+
+.nav__btn:hover {
+   background-color: blue;
+}
+
+.button {
+   font-family: "Quicksand", sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 13px;
+   line-height: 0.8;
+
+   text-decoration: none;
+   color: #3a79ff;
+
+   transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+.button:hover {
+   background-color: blue;
+   color: red;
+}

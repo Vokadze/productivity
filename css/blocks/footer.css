@@ -1,0 +1,27 @@
+.footer {
+   height: 290px;
+   background-color: #fff;
+}
+
+.footer__list {
+   margin-top: 93px;
+}
+
+.footer__cop {
+   margin-top: 30px;
+   margin-left: 216px;
+}
+.footer__cops {
+   font-family: -var(--fontQuicksand);
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 15px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.05em;
+   text-transform: capitalize;
+
+   color: #aeb8d0;
+}

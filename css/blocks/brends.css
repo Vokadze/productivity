@@ -1,0 +1,43 @@
+.brends {
+   width: 1440px;
+   height: 145px;
+   margin: 0 auto;
+   padding: 50px 0;
+   display: flex;
+   align-items: center;
+   position: relative;
+}
+
+.brends__row {
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   align-items: center;
+}
+.brends__icons {
+   display: flex;
+   position: absolute;
+}
+
+.brends__link {
+   width: 117px;
+   margin-right: 83px;
+}
+
+.brends__link:last-child {
+   margin-right: 0;
+}
+
+.brends__icon {
+   fill: #d6dae5;
+}
+
+.brends__icon:hover {
+   fill: #5982e7;
+}
+
+.brends__icon:last-child {
+   margin-right: 0;
+   align-items: center;
+}

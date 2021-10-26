@@ -1,0 +1,41 @@
+*,
+::before,
+::after {
+   box-sizing: border-box;
+   margin: 0 auto;
+   padding: 0;
+}
+
+:root {
+   --fontOpenSans: "Open Sans", "Arial" sans-serif;
+   --fontQuicksand: "Quicksand", sans-serif;
+   --fontRoboto: "Roboto", "Arial" sans-serif;
+}
+
+
+body {
+   margin: 0 auto;
+   padding: 0;
+   font-family: "Open Sans", sans-serif;
+}
+
+.none {
+   display: none;
+}
+
+ul,
+li {
+   list-style-type: none;
+}
+
+image {
+   display: block;
+   max-width: 100%;
+}
+
+.container {
+   margin: 0 auto;
+   width: 1440px;
+}
+
+

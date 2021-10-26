@@ -1,0 +1,129 @@
+.getstart {
+   width: 1440px;
+   height: 450px;
+}
+
+.getstart__col {
+   position: absolute;
+   display: flex;
+}
+
+.getstart__list {
+   flex-direction: column;
+   display: flex;
+}
+
+.getstart__article {
+   margin-top: 91px;
+
+   width: 100%;
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+}
+
+.getstart__article-fon {
+   display: flex;
+}
+
+.getstart__colom {
+   width: 100%;
+   position: absolute;
+   display: flex;
+}
+
+.getstart__desc {
+   font-family: -var(--fontRoboto);
+   font-style: normal;
+   font-weight: 500;
+   font-size: 10px;
+   line-height: 12px;
+
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+
+   color: #fff;
+}
+
+.getstart__title {
+   padding-top: 16px;
+   padding-bottom: 28px;
+   font-family: -var(--fontQuicksand);
+   font-style: normal;
+   font-weight: 300;
+   font-size: 48px;
+   line-height: 60px;
+
+   text-align: center;
+
+   color: #fff;
+}
+
+.getstart__text {
+   width: 712px;
+   padding-bottom: 45px;
+   font-family: -var(--fontRoboto);
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 29px;
+   text-align: center;
+   letter-spacing: 0.03em;
+
+   color: #fff;
+}
+
+.getstart__button {
+   display: flex;
+}
+
+.getstart__button-white {
+   width: 130px;
+   height: 43px;
+
+   font-family: -var(--fontQuicksand);
+   font-style: normal;
+   font-weight: bold;
+   font-size: 13px;
+   line-height: 16px;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+
+   border: 1px solid #fff;
+   background-color: #fff;
+
+   color: #565f82;
+}
+
+.getstart__input-blue {
+   width: 155px;
+   height: 43px;
+
+   font-family: -var(--fontQuicksand);
+   font-style: normal;
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 16px;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   background-color: #6888ff;
+   border: 1px solid #fff;
+
+   color: #eef0f5;
+   padding-left: 10px;
+}
+
+.getstart__input-blue::placeholder {
+   font-family: -var(--fontQuicksand);
+   font-style: normal;
+   font-weight: bold;
+   font-size: 13px;
+   line-height: 16px;
+}

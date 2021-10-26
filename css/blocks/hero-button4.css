@@ -1,0 +1,52 @@
+.button-ellipse4 {
+   display: flex;
+   position: absolute;
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   top: -351px;
+   right: -576px;
+   cursor: pointer;
+   background-color: #fff;
+   z-index: 5;
+   border: 2px solid #4b71ff;
+   box-shadow: 0px 0px 15px rgba(82, 131, 255, 0.25);
+}
+
+.button-ellipse4:hover {
+   background-color: #4b71ff;
+   border: 1px solid #ff4ba5bd;
+}
+
+.hero__item-clock4 {
+   display: flex;
+   position: absolute;
+   left: 493px;
+   bottom: 296px;
+   cursor: pointer;
+   opacity: 0;
+   z-index: 4;
+}
+
+.hero__item-clock-icon {
+   margin-bottom: -20px;
+   padding: 0;
+}
+
+.hero__item-line4 {
+   position: relative;
+   width: 30px;
+   height: 80px;
+   margin-top: 150px;
+   margin-left: -92px;
+}
+
+.hero__item-clock4:hover {
+   opacity: 1;
+}
+
+.hero__item-clock4:hover .hero__item-line-active {
+   height: 100%;
+   background-color: rgba(170, 186, 245, 0.671);
+   transition: height 0.5s ease-in;
+}

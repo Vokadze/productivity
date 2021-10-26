@@ -1,0 +1,229 @@
+.post {
+   display: flex;
+   max-width: 1440px;
+   height: 865px;
+
+   background-color: #f5f8ff;
+}
+
+.post__article {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 104px;
+   width: 260px;
+   height: 62px;
+}
+
+.post__text {
+   padding-bottom: 10px;
+   font-family: -var(--fontRoboto);
+   font-style: normal;
+   font-weight: 500;
+   font-size: 10px;
+   line-height: 12px;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   color: #3d4f9f;
+}
+
+.post__title {
+   padding-top: 10px;
+   font-family: -var(--fontQuicksand);
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 30px;
+   text-align: center;
+   color: #3d4f9f;
+}
+
+.slider__post {
+   display: flex;
+   margin-top: 155px;
+   width: 960px;
+   height: 400px;
+
+   background-color: #fff;
+}
+
+.slider__post-content {
+   width: 100%;
+   height: 100%;
+}
+
+.slider__post-list {
+   display: flex;
+   position: relative;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.slider__post-article {
+   width: 100%;
+   margin: 0;
+   display: flex;
+}
+
+.slider__post-article-img {
+   margin: 0;
+   width: 441px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.slider__post-article-img-big {
+   margin-left: 35px;
+   margin-right: 13px;
+   display: flex;
+}
+
+.slider__post-article-img-link-icon1 {
+   position: absolute;
+   stroke: #a7aac6;
+   fill: transparent;
+   stroke: transparent;
+   top: 190px;
+   left: 170px;
+
+   transition: stroke 0.2s ease-in;
+}
+
+.slider__post-article-img-link-icon1:hover {
+   stroke: #2935a7;
+   fill: 0px 4px 15px rgba(123, 12, 46, 0.35);
+   box-shadow: 0px 4px 15px rgba(123, 12, 46, 0.35);
+}
+
+.slider__post-article-img-link-icon2 {
+   position: absolute;
+   stroke: #a7aac6;
+   fill: transparent;
+   stroke: transparent;
+   top: 130px;
+   left: 370px;
+
+   transition: stroke 0.2s ease-in;
+}
+
+.slider__post-article-img-link-icon2:hover {
+   stroke: #2935a7;
+   fill: 0px 4px 15px rgba(123, 12, 46, 0.35);
+   box-shadow: 0px 4px 15px rgba(123, 12, 46, 0.35);
+}
+
+.slider__post-article-img-link-icon3 {
+   position: absolute;
+   stroke: #a7aac6;
+   fill: transparent;
+   stroke: transparent;
+   top: 260px;
+   left: 370px;
+
+   transition: stroke 0.2s ease-in;
+}
+
+.slider__post-article-img-link-icon3:hover {
+   stroke: #2935a7;
+   fill: 0px 4px 15px rgba(123, 12, 46, 0.35);
+   box-shadow: 0px 4px 15px rgba(123, 12, 46, 0.35);
+}
+
+.slider__post-article-img-smale1 {
+   margin: 0px 0 12px;
+   display: flex;
+}
+
+.slider__post-article-img-smale2 {
+   display: flex;
+}
+
+.slider__post-info {
+   width: 441px;
+   display: flex;
+}
+
+.slider__control-post {
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+}
+
+.slider__dots-post {
+   display: flex;
+   align-items: center;
+   margin-top: 260px;
+   text-align: center;
+}
+
+.slider__dot-post-more {
+   display: flex;
+   cursor: pointer;
+   height: 11px;
+   width: 11px;
+   margin: 0 10px;
+   background-color: rgb(139, 132, 233);
+   border-radius: 50%;
+}
+
+.slider__dot-post-more.active,
+.slider__dot-post-more:hover {
+   background-color: #2935a7;
+}
+
+.fade {
+   animation-name: fade;
+   animation-direction: 1.5s;
+}
+
+@keyframes fade {
+   from {
+      opacity: 0.4;
+   }
+   to {
+      opacity: 1;
+   }
+}
+
+.slider__nav-post {
+   margin-top: -190px;
+   width: 1440px;
+   height: 30px;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+
+.slider__nav-left {
+   margin-left: 150px;
+
+   display: flex;
+
+   width: 20px;
+   height: 20px;
+   font-size: 19px;
+   font-weight: bold;
+   text-align: center;
+   align-items: center;
+   border: none;
+   color: blue;
+}
+
+.slider__nav-right {
+   margin-right: 140px;
+
+   display: flex;
+
+   width: 20px;
+   height: 20px;
+   font-size: 19px;
+   font-weight: bold;
+   text-align: center;
+   align-items: center;
+   border: none;
+   color: blue;
+}

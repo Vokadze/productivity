@@ -1,0 +1,111 @@
+.manage {
+   width: 1440px;
+   height: 776px;
+   background-color: #f5f8ff;
+   display: flex;
+   margin-bottom: 100px;
+}
+
+.manage__list {
+   display: flex;
+   height: 100%;
+}
+
+.manage__item {
+   margin: 0;
+   display: flex;
+   align-items: center;
+}
+
+.manage__item-info {
+   margin: 0;
+   padding: 0;
+   margin-left: 221px;
+   width: 413px;
+   height: 352px;
+   align-items: center;
+}
+
+.manage__article {
+   display: block;
+   flex-direction: column;
+}
+
+.manage__text {
+   padding-bottom: 27px;
+   font-family: -var(--fontRoboto);
+   font-style: normal;
+   font-weight: 500;
+   font-size: 10px;
+   line-height: 12px;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   color: #3d4f9f;
+}
+
+.manage__title {
+   padding-bottom: 27px;
+   font-family: -var(--fontQuicksand);
+   font-style: normal;
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 45px;
+   color: #3d4f9f;
+}
+
+.manage__desc {
+   padding-bottom: 47px;
+   font-family: -var(--fontRoboto);
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 29px;
+   letter-spacing: 0.03em;
+   color: #8d96bd;
+}
+
+.manage__button-blue {
+   width: 130px;
+   height: 43px;
+   border: 1px solid #4c85ff;
+   background-color: #4c85ff;
+   color: #fff;
+   box-shadow: 0px 5px 15px rgba(245, 248, 255, 1);
+   border-radius: 2px;
+
+   transition: color 0.2s ease-in, background-color 0.2s ease-in;
+}
+
+.manage__button-blue:hover {
+   color: blue;
+   background-color: rgb(143, 178, 253);
+   box-shadow: 0px 4px 15px rgba(123, 12, 46, 0.35);
+}
+
+.manage__button-white {
+   width: 130px;
+   height: 43px;
+   color: rgb(173, 180, 210);
+   border: 1px solid rgb(209, 209, 228);
+   background-color: rgb(245, 248, 255);
+   box-sizing: border-box;
+   border-radius: 2px;
+}
+
+.manage__button-white:hover {
+   color: blue;
+   background-color: rgb(143, 178, 253);
+   box-shadow: 0px 4px 15px rgba(123, 12, 46, 0.35);
+}
+
+.manage__item-illustration {
+   left: 0;
+   top: 0;
+   margin-top: 180px;
+   margin-left: -110px;
+   align-items: center;
+}
+
+.manage__item-illustration-img {
+   align-items: center;
+}
